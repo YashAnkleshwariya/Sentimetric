@@ -8,21 +8,14 @@ import io
 # Streamlit app code
 st.title("Sentiment Analysis App")
 
-# Choose analysis type: Single or Batch
-analysis_type = st.sidebar.selectbox("Choose analysis type:", ["Single", "Batch"])
-
-# Single Sentiment Analysis
-if analysis_type == "Single":
-    st.header("Single Sentiment Analysis")
-
-    st.header("Enter the Sentiment here:")
+st.header("Enter the Sentiment here:")
     # Input text from the user
-    user_input = st.text_area(" ", height=100)
+user_input = st.text_area(" ", height=100)
 
     # Preprocess Text
-    user_input_word = []
+user_input_word = []
 
-    if st.button("Predict"):
+if st.button("Predict"):
         for word in user_input.split(' '):
             if word.startswith('@') and len(word) > 1:
                 word = '@user'
