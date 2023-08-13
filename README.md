@@ -2,7 +2,7 @@
 
 Sentimetric is a sentiment analysis application that leverages the power of the CardiffNLP's `twitter-roberta-base-sentiment` model to analyze textual input for its underlying sentiment. The app provides predictions as either 'Negative', 'Neutral', or 'Positive'.
 
-![Sentimetric Screenshot]  
+## Image
 ![Capture](https://github.com/YashAnkleshwariya/Sentimetric/assets/118588061/dabf491a-0e38-4c29-aaae-87b7f3af10ff)
 
 ## Features
