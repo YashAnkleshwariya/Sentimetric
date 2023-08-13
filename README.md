@@ -19,7 +19,7 @@ Ensure that you have the necessary packages installed. You can install them usin
 pip install -r requirements.txt 
 ````
 
-##How to Run
+## How to Run
 
 After cloning the repository and installing the requirements, run the following command in your terminal:
 ````bash
@@ -28,12 +28,12 @@ streamlit run app.py
 
 This will start the Streamlit app, and you can navigate to the provided link in your preferred web browser to access Sentimetric.
 
-##Code Structure
+## Code Structure
 -**app.py**: Contains the main code for the Streamlit app and sentiment prediction logic.
 -**requirements.txt**: Lists the Python packages required to run Sentimetric.
 
-##Contributing
+## Contributing
 We welcome contributions! If you find a bug or think of a new feature, please open an issue. We appreciate any and all feedback.
 
-##Future Plan 
+## Future Plan 
 We can develop Batch wise Sentiment Analysis application were user can upload all sentiment in XML or PDF file and we can get sentiment analysis based on that.
