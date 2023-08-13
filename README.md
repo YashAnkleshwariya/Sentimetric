@@ -18,11 +18,13 @@ Ensure that you have the necessary packages installed. You can install them usin
 ```bash
 pip install -r requirements.txt 
 ````
+
 ##How to Run
 
 After cloning the repository and installing the requirements, run the following command in your terminal:
 ````bash
-streamlit run app.py ````
+streamlit run app.py 
+````
 
 This will start the Streamlit app, and you can navigate to the provided link in your preferred web browser to access Sentimetric.
 
