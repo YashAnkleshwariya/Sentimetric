@@ -29,8 +29,8 @@ streamlit run app.py
 This will start the Streamlit app, and you can navigate to the provided link in your preferred web browser to access Sentimetric.
 
 ## Code Structure
-	-**app.py**: Contains the main code for the Streamlit app and sentiment prediction logic.
-	-**requirements.txt**: Lists the Python packages required to run Sentimetric.
+	**app.py**: Contains the main code for the Streamlit app and sentiment prediction logic.
+	**requirements.txt**: Lists the Python packages required to run Sentimetric.
 
 ## Contributing
 We welcome contributions! If you find a bug or think of a new feature, please open an issue. We appreciate any and all feedback.
