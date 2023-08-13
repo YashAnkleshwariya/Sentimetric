@@ -16,8 +16,8 @@ Sentimetric is a sentiment analysis application that leverages the power of the 
 Ensure that you have the necessary packages installed. You can install them using:
 
 ```bash
-pip install -r requirements.txt ````
-
+pip install -r requirements.txt 
+````
 ##How to Run
 
 After cloning the repository and installing the requirements, run the following command in your terminal:
